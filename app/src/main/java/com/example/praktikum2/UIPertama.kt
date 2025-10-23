@@ -73,10 +73,8 @@ fun ActivitasPertama(modifier: Modifier){
             .fillMaxWidth(fraction = 1f)
             .padding(all=12.dp),
             colors = CardDefaults.cardColors(
-                containerColor = Color.Black
-            )) {
-
-        }
+                containerColor = Color.hsl(hue = 227f, saturation = 0.96f , lightness = 0.31f)
+            )) {}
 
         Box(
             modifier = Modifier
