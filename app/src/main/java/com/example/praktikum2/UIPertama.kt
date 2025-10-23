@@ -94,16 +94,16 @@ fun ActivitasPertama(modifier: Modifier){
                         modifier = Modifier.padding(top = 15.dp)
                     )
                     Text(
-                        text = stringResource(id = R.string.phone),
-                        fontSize = 20.sp,
-                        color = Color.White,
-                        modifier = Modifier.padding(top = 15.dp)
-                    )
-                    Text(
                         text = stringResource(id = R.string.alamat),
                         fontSize = 20.sp,
                         color = Color.Yellow,
-                        modifier = Modifier.padding(top = 10.dp, bottom = 15.dp)
+                        modifier = Modifier.padding(top = 10.dp)
+                    )
+                    Text(
+                        text = stringResource(id = R.string.phone),
+                        fontSize = 20.sp,
+                        color = Color.White,
+                        modifier = Modifier.padding(top = 15.dp, bottom = 15.dp)
                     )
                 }
             }
@@ -134,16 +134,16 @@ fun ActivitasPertama(modifier: Modifier){
                         modifier = Modifier.padding(top = 15.dp)
                     )
                     Text(
-                        text = stringResource(id = R.string.phone),
-                        fontSize = 20.sp,
-                        color = Color.White,
-                        modifier = Modifier.padding(top = 15.dp)
-                    )
-                    Text(
                         text = stringResource(id = R.string.alamat),
                         fontSize = 20.sp,
                         color = Color.Yellow,
-                        modifier = Modifier.padding(top = 10.dp, bottom = 15.dp)
+                        modifier = Modifier.padding(top = 10.dp)
+                    )
+                    Text(
+                        text = stringResource(id = R.string.phone),
+                        fontSize = 20.sp,
+                        color = Color.White,
+                        modifier = Modifier.padding(top = 15.dp, bottom = 15.dp)
                     )
                 }
             }
